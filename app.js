@@ -7,10 +7,10 @@ const chatRouter = require("./src/routes/chat");
 
 const app = express(); //instance of express js applcation
 
-
 const allowedOrigins = [
   "http://localhost:5173",
   "http://3.26.8.106",
+  "http://devnexus.duckdns.org",
 ];
 
 app.use(
